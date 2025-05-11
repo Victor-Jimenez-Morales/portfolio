@@ -53,7 +53,7 @@ main {
   align-items: center;
   gap: 150px;
   width: 100%;
-  padding: 240px 24px 150px 24px;
+  padding: 240px 24px 100px 24px;
 }
 
 main > section {
