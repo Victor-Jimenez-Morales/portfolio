@@ -1,0 +1,25 @@
+.nav-list-item {
+  list-style: none;
+  text-align: center;
+  transition: all 100ms;
+}
+
+.nav-list-item:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--nav-link);
+  font-weight: 700;
+  transition: all 100ms;
+  word-spacing: -4px;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link-active {
+  color: var(--primary);
+}

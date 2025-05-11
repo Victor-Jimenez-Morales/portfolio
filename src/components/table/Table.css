@@ -1,0 +1,46 @@
+.table {
+  font-size: 0.9rem;
+  vertical-align: text-top;
+  border-collapse: collapse;
+}
+
+.table td {
+  vertical-align: text-top;
+  padding: 10px 5px;
+}
+
+.table td > p:first-child {
+  background-color: var(--nav-link);
+  padding: 5px 8px;
+  border-radius: 5px;
+  border-left: 4px solid var(--button-background);
+  margin-bottom: 7px;
+}
+
+.table td a {
+  position: relative;
+}
+
+.table td a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.table td a:hover,
+.table td a:hover i {
+  color: var(--primary);
+}
+
+.table td a i {
+  position: absolute;
+  font-size: 0.5rem;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.table td > p:last-child {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin-top: 5px;
+}

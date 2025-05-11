@@ -1,0 +1,19 @@
+.skill-section-title {
+  margin-bottom: 20px;
+}
+
+.skill-group-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skill-group-title {
+  margin-bottom: 15px;
+}
+
+.badge-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
