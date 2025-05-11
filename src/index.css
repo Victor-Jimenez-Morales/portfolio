@@ -66,7 +66,7 @@ main > section {
 /* Tablet view */
 @media screen and (min-width: 768px) {
   main {
-    padding: 200px 24px 150px 24px;
+    padding: 200px 24px 50px 24px;
   }
   main > section {
     scroll-margin-top: 200px;
@@ -76,7 +76,7 @@ main > section {
 /* Desktop view */
 @media screen and (min-width: 960px) {
   main {
-    padding: 180px 24px 150px 24px;
+    padding: 180px 24px 50px 24px;
   }
 
   main > section {
