@@ -78,6 +78,13 @@ export const PROJECTS = [
     description: 'Tic Tac Toe game. The game saves in local storage of the client. Developed with React.',
     githubLink: 'https://github.com/Victor-Jimenez-Morales/Tic-Tac-Toe',
     projectLink: 'https://tic-tac-toe-pi-seven-18.vercel.app/'
+  },
+  {
+    imgSrc: '/catmemegenerator.png',
+    title: 'Cat Meme Generator',
+    description: 'Generate random cat images with custom text. Developed with React',
+    githubLink: 'https://github.com/Victor-Jimenez-Morales/Cat-Meme-Generator',
+    projectLink: 'https://cat-meme-generator.vercel.app/'
   }
 ]
 
