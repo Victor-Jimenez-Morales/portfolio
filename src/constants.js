@@ -51,13 +51,13 @@ export const PROJECTS = [
     githubLink: 'https://github.com/Victor-Jimenez-Morales/Burger-s-Masters',
     projectLink: 'https://burgers-masters.vercel.app/'
   },
-  {
-    imgSrc: '/gameville.webp',
-    title: 'GameVille',
-    description: 'E-commerce website with full User and Admin experience. As a User you can create an account, log in, add items to cart and simulate buying. Not actual payment implementation. As an Admin you have a full CRUD of the website. Developed with Laravel, Livewire and Tailwind CSS.',
-    githubLink: 'https://github.com/Victor-Jimenez-Morales/GameVille',
-    projectLink: 'https://gameville.es/'
-  },
+  // {
+  //   imgSrc: '/gameville.webp',
+  //   title: 'GameVille',
+  //   description: 'E-commerce website with full User and Admin experience. As a User you can create an account, log in, add items to cart and simulate buying. Not actual payment implementation. As an Admin you have a full CRUD of the website. Developed with Laravel, Livewire and Tailwind CSS.',
+  //   githubLink: 'https://github.com/Victor-Jimenez-Morales/GameVille',
+  //   projectLink: 'https://gameville.es/'
+  // },
   {
     imgSrc: '/simplycalculator.webp',
     title: 'Simply Calculator',
