@@ -18,7 +18,7 @@ export default function App () {
 
   return (
     <>
-      <Nav />
+      <Nav ref={parent} />
 
       <main ref={parent}>
         <MainRouter
