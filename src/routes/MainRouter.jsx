@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 
 // Components
 import Introduction from '../components/introduction/Introduction'
@@ -13,7 +13,7 @@ export default function MainRouter ({ socialMedia, workEdExperience, projects, s
     <Routes>
       <Route
         path='/'
-        element={<Introduction socialMedia={socialMedia} />}
+        element={<Navigate to='/introduction' />}
       />
       <Route
         path='/introduction'
