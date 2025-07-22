@@ -11,7 +11,7 @@ export default function AboutMe () {
           My goal is to become a top Full-Stack Developer, maximizing both my technical skills and my ability to work well in teams and individually.
         </p>
 
-        <img className='aboutme-img' src='/yo.jpg' alt='Picture of myself' />
+        <img className='aboutme-img' src='/yo.webp' alt='Picture of myself' />
       </div>
     </section>
   )

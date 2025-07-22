@@ -16,7 +16,7 @@ export default function Nav () {
       <div className='main-nav'>
         <img
           className='main-nav-logo'
-          src='/logo.jpg'
+          src='/logo.webp'
           alt='Portfolio Logo'
         />
 

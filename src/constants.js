@@ -45,42 +45,42 @@ export const WORK_ED_EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    imgSrc: '/burgersmasters.png',
+    imgSrc: '/burgersmasters.webp',
     title: "Burger's Masters",
     description: 'Restaurant website design. Pages: Intro, Menu, Restaurants and Contact. Developed with HTML, CSS and JQuery.',
     githubLink: 'https://github.com/Victor-Jimenez-Morales/Burger-s-Masters',
     projectLink: 'https://burgers-masters.vercel.app/'
   },
   {
-    imgSrc: '/gameville.jpg',
+    imgSrc: '/gameville.webp',
     title: 'GameVille',
     description: 'E-commerce website with full User and Admin experience. As a User you can create an account, log in, add items to cart and simulate buying. Not actual payment implementation. As an Admin you have a full CRUD of the website. Developed with Laravel, Livewire and Tailwind CSS.',
     githubLink: 'https://github.com/Victor-Jimenez-Morales/GameVille',
     projectLink: 'https://gameville.es/'
   },
   {
-    imgSrc: '/simplycalculator.png',
+    imgSrc: '/simplycalculator.webp',
     title: 'Simply Calculator',
     description: 'A simple calculator app with basic math calculations. Includes a history of the operations using LocalStorage. Developed with HTML, CSS and JavaScript.',
     githubLink: 'https://github.com/Victor-Jimenez-Morales/Simply-Calculator',
     projectLink: 'https://simply-calculator-three.vercel.app/'
   },
   {
-    imgSrc: '/twitterfollowcard.png',
+    imgSrc: '/twitterfollowcard.webp',
     title: 'Twitter Follow Card Clone',
     description: 'React component of Twitter/X following users card. Developed with React.',
     githubLink: 'https://github.com/Victor-Jimenez-Morales/Twitter-Follow-Card',
     projectLink: 'https://twitter-follow-card-sandy.vercel.app/'
   },
   {
-    imgSrc: '/tictactoe.png',
+    imgSrc: '/tictactoe.webp',
     title: 'Tic Tac Toe',
     description: 'Tic Tac Toe game. The game saves in local storage of the client. Developed with React.',
     githubLink: 'https://github.com/Victor-Jimenez-Morales/Tic-Tac-Toe',
     projectLink: 'https://tic-tac-toe-pi-seven-18.vercel.app/'
   },
   {
-    imgSrc: '/catmemegenerator.png',
+    imgSrc: '/catmemegenerator.webp',
     title: 'Cat Meme Generator',
     description: 'Generate random cat images with custom text. Developed with React',
     githubLink: 'https://github.com/Victor-Jimenez-Morales/Cat-Meme-Generator',
