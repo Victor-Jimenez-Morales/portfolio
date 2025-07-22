@@ -27,12 +27,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
 body {
   font-size: 1.1rem;
   background-color: var(--background);
 }
 
-#root{
+#root {
   position: relative;
 
 }
@@ -56,7 +60,7 @@ main {
   padding: 240px 24px 50px 24px;
 }
 
-main > section {
+main>section {
   width: 100%;
   max-width: 900px;
   scroll-margin-top: 240px;
@@ -68,7 +72,8 @@ main > section {
   main {
     padding: 200px 24px 50px 24px;
   }
-  main > section {
+
+  main>section {
     scroll-margin-top: 200px;
   }
 }
@@ -79,7 +84,7 @@ main > section {
     padding: 180px 24px 50px 24px;
   }
 
-  main > section {
+  main>section {
     scroll-margin-top: 180px;
   }
 }

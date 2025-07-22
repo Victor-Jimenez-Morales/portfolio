@@ -9,12 +9,24 @@ export function NavList ({ isOpen, setOpen }) {
 
   return (
     <ul className={navClassName}>
-      <NavListLink setOpen={setOpen} href='#introduction'>INTRODUCTION</NavListLink>
-      <NavListLink setOpen={setOpen} href='#about-me'>ABOUT ME</NavListLink>
-      <NavListLink setOpen={setOpen} href='#work-education-experience'>WORKING & EDUCATION EXPERIENCE</NavListLink>
-      <NavListLink setOpen={setOpen} href='#projects'>PROJECTS</NavListLink>
-      <NavListLink setOpen={setOpen} href='#skills'>SKILLS</NavListLink>
-      <NavListLink setOpen={setOpen} href='#contact'>CONTACT</NavListLink>
+      <NavListLink setOpen={setOpen} href='/introduction'>
+        INTRODUCTION
+      </NavListLink>
+      <NavListLink setOpen={setOpen} href='/about-me'>
+        ABOUT ME
+      </NavListLink>
+      <NavListLink setOpen={setOpen} href='/work-education-experience'>
+        WORKING & EDUCATION EXPERIENCE
+      </NavListLink>
+      <NavListLink setOpen={setOpen} href='/projects'>
+        PROJECTS
+      </NavListLink>
+      <NavListLink setOpen={setOpen} href='/skills'>
+        SKILLS
+      </NavListLink>
+      <NavListLink setOpen={setOpen} href='/contact'>
+        CONTACT
+      </NavListLink>
     </ul>
   )
 }
